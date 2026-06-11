@@ -1,0 +1,17 @@
+uid,site,rtt_ms,media,device,game,window,date,n,mean_lag_ms,sd_lag_ms,ci_lo,ci_hi,jitter_sd_ms,retx_pct,ooo_pct
+S01,Onsite,1,Wired,PC-High,Metro,Afternoon,2025-04-22,30,152,11,148,156,0.4,0.05,0.10
+S02,Onsite,1,Wired,PC-High,GRIP,Afternoon,2025-04-22,30,148,22,140,156,0.5,0.07,0.12
+S03,Onsite,1,Wired,PC-High,Golazo,Afternoon,2025-04-22,30,118,9,115,121,0.4,0.04,0.09
+S04,Onsite,1,Wi-Fi,PC-High,Metro,Morning,2025-04-23,30,198,12,194,202,0.6,0.08,0.14
+S05,Onsite,1,Wi-Fi,PC-High,GRIP,Morning,2025-04-23,30,158,20,151,165,0.5,0.06,0.11
+S06,Onsite,1,Wi-Fi,PC-High,Golazo,Morning,2025-04-23,30,163,17,157,169,0.5,0.07,0.12
+S07,Onsite,1,Wi-Fi,Mobile,Metro,Evening,2025-04-23,30,157,19,150,164,0.7,0.09,0.16
+S08,Onsite,1,Wi-Fi,Mobile,GRIP,Evening,2025-04-23,30,161,18,154,168,0.6,0.08,0.14
+S09,Onsite,1,Wi-Fi,Mobile,Golazo,Evening,2025-04-23,30,154,16,148,160,0.6,0.07,0.13
+S10,Ramadi,10,Wi-Fi,PC-High,Metro,Afternoon,2025-04-29,30,152,21,144,160,3.1,0.12,0.21
+S11,Ramadi,10,Wi-Fi,PC-High,GRIP,Afternoon,2025-04-29,30,149,19,142,156,3.0,0.10,0.19
+S12,Ramadi,10,Wi-Fi,PC-High,Golazo,Evening,2025-04-29,30,146,17,140,152,2.9,0.11,0.20
+S13,Sinaah,8,Wi-Fi,PC-Low,Golazo,Afternoon,2025-05-06,30,446,29,435,457,11.8,2.15,1.70
+S14,Sinaah,8,Wi-Fi,PC-Low,Golazo,Evening,2025-05-07,30,458,31,446,470,12.4,2.41,1.85
+S15,Sinaah,8,Wi-Fi,Mobile,Golazo,Afternoon,2025-05-08,30,447,27,437,457,12.0,2.22,1.75
+S16,Sinaah,8,Wi-Fi,Mobile,Golazo,Evening,2025-05-08,30,453,33,441,465,12.6,2.32,1.82

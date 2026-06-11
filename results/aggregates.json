@@ -1,0 +1,100 @@
+{
+  "site_aggregates": {
+    "Onsite": {
+      "scenarios": 9,
+      "samples": 270,
+      "mean": 156.6,
+      "sd": 25.3,
+      "ci": [
+        153.5,
+        159.6
+      ]
+    },
+    "Ramadi": {
+      "scenarios": 3,
+      "samples": 90,
+      "mean": 149.0,
+      "sd": 19.0,
+      "ci": [
+        145.0,
+        153.0
+      ]
+    },
+    "Sinaah": {
+      "scenarios": 4,
+      "samples": 120,
+      "mean": 451.0,
+      "sd": 30.1,
+      "ci": [
+        445.6,
+        456.4
+      ]
+    }
+  },
+  "onsite_wired": {
+    "scenarios": 3,
+    "samples": 90,
+    "mean": 139.3,
+    "sd": 21.4,
+    "ci": [
+      134.9,
+      143.8
+    ]
+  },
+  "onsite_wifi_pchigh": {
+    "scenarios": 3,
+    "samples": 90,
+    "mean": 173.0,
+    "sd": 24.3,
+    "ci": [
+      167.9,
+      178.1
+    ]
+  },
+  "wired_wifi_gap_ms": 33.7,
+  "correlations": {
+    "jitter_sd": {
+      "pearson_r": 0.972,
+      "pearson_p": 3.54e-10,
+      "spearman_rho": 0.58,
+      "spearman_p": 0.019
+    },
+    "retx_pct": {
+      "pearson_r": 0.993,
+      "pearson_p": 1.87e-14,
+      "spearman_rho": 0.59,
+      "spearman_p": 0.017
+    },
+    "mean_rtt": {
+      "pearson_r": 0.498,
+      "pearson_p": 0.0496,
+      "spearman_rho": 0.05,
+      "spearman_p": 0.847
+    }
+  },
+  "within_well_provisioned": {
+    "jitter_sd": -0.0,
+    "retx_pct": 0.01,
+    "mean_rtt": -0.45
+  },
+  "jitter_retx_collinearity": 0.98,
+  "descriptive_ols": {
+    "jitter_sd": {
+      "intercept": 128.0,
+      "slope": 25.74,
+      "r2": 0.944
+    },
+    "retx_pct": {
+      "intercept": 144.2,
+      "slope": 134.68,
+      "r2": 0.986
+    }
+  },
+  "regime_contrast": {
+    "well_provisioned_mean": 154.7,
+    "degraded_mean": 451.0,
+    "diff_ms": 296.0,
+    "welch_t": 50.5,
+    "p": 3.15e-17
+  }
+}
